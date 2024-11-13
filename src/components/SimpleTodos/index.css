@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffc2a0;
+  background-color: black;
   min-height: 100vh;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .heading {
-  color: #ff8542;
+  color: blue;
   font-family: 'Roboto';
   font-size: 24px;
   font-weight: 700;

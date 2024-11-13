@@ -7,39 +7,38 @@ import './index.css'
 const initialTodosList = [
   {
     id: 1,
-    title: 'Book the ticket for today evening',
+    title: 'Wakeup at 5 o clock ',
   },
   {
     id: 2,
-    title: 'Rent the movie for tomorrow movie night',
+    title: 'Learn new topics and make them a note',
   },
   {
     id: 3,
-    title: 'Confirm the slot for the yoga session tomorrow morning',
+    title: 'Make a Call to family members',
   },
   {
     id: 4,
-    title: 'Drop the parcel at Bloomingdale',
+    title: 'Write diary',
   },
   {
     id: 5,
-    title: 'Order fruits on Big Basket',
+    title: 'Do exercises and Yoga',
   },
   {
     id: 6,
-    title: 'Fix the production issue',
+    title: 'Eat healthy food and maintain diet',
   },
   {
     id: 7,
-    title: 'Confirm my slot for Saturday Night',
+    title: 'Confirm my health checkup slot for Saturday Night',
   },
   {
     id: 8,
-    title: 'Get essentials for Sunday car wash',
+    title: 'Get essentials On Sunday',
   },
 ]
 
-// Write your code here
 class SimpleTodos extends Component {
   state = {
     todosList: initialTodosList,
